@@ -1,7 +1,6 @@
 /* GENERAL STYLES */
 
 body {
-  background: #fff;
   color: #333;
   font-family: opens sans;
 }
@@ -28,7 +27,6 @@ a {
   font-family: open sans;
 }
 #at-nav-button {
-  margin-top: 0px;
   padding: 15px;
   font-family: open sans;
   border: none;
@@ -40,7 +38,7 @@ a {
 /* HEADER STYLES */
 
 header {
-  background-image: url('http://www.stephanelacasaphotography.com/data/photos/13_1black_and_white_photography_hawaii_landscape.jpg');
+  background-image: url('http://benmulligan.com/wp-content/uploads/2014/03/DSF3807.jpg');
   background-size:cover;
   height:500px;
   width:100%;
@@ -51,16 +49,17 @@ header {
   font-weight:lighter;
   text-align: center;
   color:white;
-  text-shadow:1px 2px 1px #4c4c4c;
+  text-shadow: 2px 1px 5px #333;
 }
 .site-heading {
-  padding-top:100px;
   text-align: center;
+  padding-top:150px
 }
 .subheading {
   font-family:lato;
   font-weight:lighter;
-  color:#333;
+  color:white;
+  text-shadow: 2px 1px 5px #333;
 }
 hr {
   border: 0;
@@ -71,12 +70,15 @@ hr {
 }
 
 /* POST STYLES */
+.posts {
+  padding-top:50px;
+}
 .post-title a {
   font-family:PT sans;
   font-weight:bold;
 }
 .post-subtitle {
-
+  color:lightgrey;
 }
 
 .load-more {

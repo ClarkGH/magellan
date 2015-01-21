@@ -1,5 +1,6 @@
 <template name="postsList">
-  <header class="container-fluid">
+  <div class="postsList">
+  <header>
           <div class="site-heading">
             <h1 id="title">Meteor Blog</h1>
             <br>
@@ -7,7 +8,7 @@
             <h3 style="text-align:center;"><span class="subheading">A responsive, dynamic blog for the cutting-edge developer</span></h3>
           </div>
   </header>
-  <div class="container">
+  <div class="container posts">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         {{#each postsWithRank}}
@@ -78,4 +79,5 @@
       {{/unless}}
     {{/if}}
   </div> -->
+</div>
 </template>
