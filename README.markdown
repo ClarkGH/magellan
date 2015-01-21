@@ -1,8 +1,7 @@
-# Microscope
+# Alejandro's Meteor Blog
 
-Microscope is a simple social news app that lets you share links, comment, and vote on them.
-
-It was built with [Meteor](http://meteor.com) as a companion app to [The Meteor Book](http://themeteorbook.com), and is the "little brother" of [Telescope](http://telesc.pe), the (much more complex) open-source social news app that was the inspiration for the book.
+This blog is built for dynamic posting, user admins and an SEO-friendly back end to create the best possible Meteor blog for personal use.
+It's built with [Meteor](http://meteor.com) and inspired by the tutorials of [The Meteor Book](http://themeteorbook.com).
 
 Microscope itself is free and open-source, and is a good example of common Meteor app patterns such as:
 
@@ -31,4 +30,3 @@ in seconds:
 
 [![Hack DiscoverMeteor/Microscope on
 Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=nodejs&repo=DiscoverMeteor%2FMicroscope&file_to_open=README.nitrous.md)
-

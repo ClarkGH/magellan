@@ -1,34 +1,31 @@
 <template name="header">
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
           <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="icon-bar" style="color:black;"></span>
+          <span class="icon-bar" style="color:black;"></span>
+          <span class="icon-bar" style="color:black;"></span>
         </button>
-        <a class="navbar-brand" href="{{pathFor 'home'}}">Microscope</a>
+        <a class="navbar-brand navbar-brand-centered" href="{{pathFor 'home'}}">Meteor Blog</a>
       </div>
       <div class="collapse navbar-collapse" id="navigation">
         <ul class="nav navbar-nav">
           <li class="{{activeRouteClass 'home' 'newPosts'}}">
-            <a href="{{pathFor 'newPosts'}}">New</a>
+            <a href="{{pathFor 'newPosts'}}">About</a>
           </li>
-          <li class="{{activeRouteClass  'bestPosts'}}">
-            <a href="{{pathFor 'bestPosts'}}">Best</a>
+          <li class="{{activeRouteClass 'bestPosts'}}">
+            <a href="{{pathFor 'bestPosts'}}">Contact</a>
           </li>
-          {{#if currentUser}}
-            <li class="{{activeRouteClass 'postSubmit'}}">
-              <a href="{{pathFor 'postSubmit'}}">Submit Post</a>
-            </li>
-            <li class="dropdown">
-              {{> notifications}}
-            </li>
-          {{/if}}
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          {{> loginButtons}}
+          {{#if currentUser}}
+          <li class="{{activeRouteClass 'postSubmit'}}" style="background-color:#3394d1;">
+            <a href="{{pathFor 'postSubmit'}}" style=" color:white;">Submit Post</a>
+          </li>
+          {{/if}}
+          {{> atNavButton}}
         </ul>
       </div>
     </div>
