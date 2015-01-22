@@ -1,0 +1,24 @@
+<template name="contact">
+  <div class="container">
+    <div class="col-md-2 tabs">
+      <ul class="nav nav-pills nav-stacked">
+        {{#if currentUser}}
+        <li>
+          <a href="{{pathFor 'postSubmit'}}">Submit Post</a>
+        </li>
+        {{/if}}
+        <li class="{{activeRouteClass 'about'}}">
+          <a href="{{pathFor 'about'}}">About</a>
+        </li>
+        <li>
+          <a href="{{pathFor 'bestPosts'}}">Contact</a>
+        </li>
+        {{> atNavButton}}
+      </ul>
+    </div>
+    <div class="col-md-10 aboutText">
+      <p>I am a self-taught web developer and economics student, with a passion for learning and desire for new challenges. I currently freelance and work hard everyday to craft ideas into tangible, responsive software. </p>
+      <p><a href="http://aledotgomez.github.io" style="color:lightblue;">Visit my site for more info!</a></p>
+    </div>
+  </div>
+</template>

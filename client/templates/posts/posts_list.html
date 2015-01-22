@@ -3,27 +3,28 @@
     <header>
       <div class="site-heading">
         <h1 id="title">Magellan</h1>
+        <br>
         <h3 style="text-align:center;"><span class="subheading">A responsive, dynamic blog for the cutting-edge developer</span></h3>
       </div>
     </header>
     <div class="container">
-      <div class="col-md-2 tabs">
+      <div class="col-md-2 col-sm-2 tabs">
         <ul class="nav nav-pills nav-stacked">
           {{#if currentUser}}
-          <li class="{{activeRouteClass 'postSubmit'}}">
+          <li>
             <a href="{{pathFor 'postSubmit'}}">Submit Post</a>
           </li>
           {{/if}}
-          <li class="{{activeRouteClass 'newPosts'}}">
-            <a href="{{pathFor 'newPosts'}}">About</a>
+          <li  class="{{activeRouteClass 'about'}}">
+            <a href="{{pathFor 'about'}}">About</a>
           </li>
-          <li class="{{activeRouteClass 'bestPosts'}}">
+          <li>
             <a href="{{pathFor 'bestPosts'}}">Contact</a>
           </li>
           {{> atNavButton}}
         </ul>
       </div>
-        <div class="col-md-10">
+        <div class="col-md-10 col-sm-10">
           <div class="row posts">
             {{#each posts}} {{> postItem}} {{/each}} {{#if nextPath}}
             <a class="load-more" href="{{nextPath}}">Load more</a> {{else}} {{#unless ready}} {{> spinner}} {{/unless}} {{/if}}

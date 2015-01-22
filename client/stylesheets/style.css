@@ -9,13 +9,19 @@ body {
   padding-left:0px;
 }
 
-h1 {
+h1,h2,h3 {
   font-family: PT Sans;
   color: #333;
+  margin-bottom:8px;
+  margin-top:0px;
 }
 a {
   color:#333;
   font-family: open sans;
+}
+a:hover {
+  color:#333;
+
 }
 /* NAVIGATION STYLES */
 
@@ -23,8 +29,34 @@ a {
   background-color: transparent;
   border: none;
 }
-.navbar-brand {
-  padding:0px;
+.navbar-default .navbar-brand {
+  color:#c4c4c4;
+  font-family: PT Sans;
+  font-weight:bold;
+  font-size:2em;
+  padding-top:30px;
+  -webkit-transition-duration: 1s; /* Safari */
+  transition-duration: 1s;
+}
+.navbar-default .navbar-brand a:hover {
+  color:#c4c4c4;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+#m:hover {
+  color:#c4c4c4;
+  -ms-transform: scale(1.2,1.2); /* IE 9 */
+  -webkit-transform: scale(1.2,1.2); /* Chrome, Safari, Opera */
+  transform: scale(1.2,1.2);
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+
+#m {
+  border: 2px solid #c4c4c4;
+  padding:5px;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > .active > a {
@@ -49,7 +81,7 @@ header {
   width:100%;
 }
 #title {
-  font-family: Playfair Display;
+  font-family: Meddon;
   font-size: 5em;
   font-weight:lighter;
   text-align: center;
@@ -74,7 +106,14 @@ hr {
   width:50%;
 }
 
+.tabs {
+  text-align:justify;
+}
+.tabs li {
+}
+
 /* POST STYLES */
+
 .posts {
   padding-top:50px;
 }
@@ -121,4 +160,17 @@ hr {
   display: block;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+/* OTHER STYLES */
+.about-header {
+  background-image: url('/images/submit.jpg');
+  background-size:cover;
+  width:100%;
+}
+.aboutText {
+  padding-top:50px;
+  text-align:justify;
+  font-size:1.2em;
+  font-family: PT Serif;
 }
