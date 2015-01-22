@@ -14,14 +14,28 @@
 }
 
 .postsSubmit .form-control,
-.postsEdit .form-control {
+.postsEdit .form-control,
+.contactForm .form-control {
   border: none;
   box-shadow: none;
   height: 100%;
 }
 .postsSubmit .form-control:action,
-.postsEdit .form-control:action {
+.postsEdit .form-control:action,
+.contactForm .form-control:action {
   box-shadow: none;
   border: none;
-  
+}
+
+.contactForm {
+  padding-top:50px;
+  max-width:400px;
+  font-weight:300;
+  font-family:lato;
+}
+.contactForm h3 {
+  font-family:lato;
+}
+.contactForm .form-control {
+  border:1px solid lightgrey;
 }
