@@ -1,4 +1,4 @@
-![ScreenShot](/images/screenshot.png)
+![](/public/images/screenshot.png)
 
 # Magellan Meteor Blog Platform
 
