@@ -1,32 +1,44 @@
-# Alejandro's Meteor Blog
+# Magellan Meteor Blog Platform
 
 This blog is built for dynamic posting, user admins and an SEO-friendly back end to create the best possible Meteor blog for personal use.
 It's built with [Meteor](http://meteor.com) and inspired by the tutorials of [The Meteor Book](http://themeteorbook.com).
 
-Microscope itself is free and open-source, and is a good example of common Meteor app patterns such as:
+This project uses the following packages:
 
-- Routing
-- User Accounts
-- Notifications
-- Errors
-- Publications/Subscriptions
-- Permissions
+- standard-app-packages
+- underscore
+- iron:router@1.0.0-rc.1
+- sacha:spin
+- accounts-password
+- ian:accounts-ui-bootstrap-3
+- audit-argument-checks
+- mizzao:bootstrap-3
+- useraccounts:bootstrap
+- accounts-facebook
+- accounts-twitter
+- meteorhacks:kadira
+- meteorhacks:zones
+- email
+- rgoomar:bootstrap-validator
 
-## This Repository
 
-The commits to this repository are organized in a very linear fashion, corresponding to progress throughout the book. Commits are tagged in the format `chapterX-Y`, indicating the `Y`th commit of chapter `X`.
+## Purpose
 
-Also, note that as the book focuses on _development_, all CSS is committed in a single commit early on.
+This project is minimal in style, and ultimately geared to anyone who would like to have a personal blog of their own. This project can be freely forked and customized, as long as credit is given to its creator (in this case, 'aledotgomez').
 
-### Branches
+### Testing
+For testing and debugging purposes, this meteor utilizes Kadira and Meteorhack's Zones for detailed debug analysis and method response times.
 
-There are 2 branches in this repository which correspond to advanced code that is covered in sidebars of the book, and outside of the main code progression. They are tagged `sidebarX-Y`, corresponding to the sidebar number in the book.
 
-### Developing on Nitrous.IO
+## To do List (help is appreciated and encouraged)
 
-Start hacking on this app on
-[Nitrous.IO](https://www.nitrous.io/?utm_source=github.com&utm_campaign=Microscope&utm_medium=hackonnitrous)
-in seconds:
+- Integration with email for contact
+- Installation of CollectionFS for image and file upload into document
+- Google analytics
+- Social Media configuration
+- Tags
+- User roles
+
 
 [![Hack DiscoverMeteor/Microscope on
 Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=nodejs&repo=DiscoverMeteor%2FMicroscope&file_to_open=README.nitrous.md)
