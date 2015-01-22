@@ -1,8 +1,8 @@
 <template name="postItem">
     <div class="row postItem" {{attributes}}>
       <div class="post-content">
-        <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
-        <h3 class="post-subtitle">{{domain}}</h3>
+        <h2 class="post-title"><a href="{{pathFor 'postPage'}}">{{postTitle}}</a></h2>
+        <h3 class="post-subtitle">{{postCaption}}</h3>
         <p>
           Submitted by {{author}},
           <a href="{{pathFor 'postPage'}}">{{pluralize commentsCount "comment"}}</a> {{#if ownPost}}<a href="{{pathFor 'postEdit'}}">Edit</a>{{/if}}

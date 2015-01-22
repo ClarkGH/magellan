@@ -1,26 +1,26 @@
 <template name="postSubmit">
   <div class="container postsSubmit">
   <form class="main form">
-    <div class="form-group {{errorClass 'url'}}">
+    <div class="form-group {{errorClass 'postTitle'}}">
       <div class="controls">
-          <input name="url" id="postTitle" type="text" value="" placeholder="Post Title" class="form-control"/>
-          <span class="help-block">{{errorMessage 'url'}}</span>
+          <input name="postTitle" id="postTitle" type="text" value="" placeholder="Post Title" class="form-control"/>
+          <span class="help-block">{{errorMessage 'postTitle'}}</span>
       </div>
     </div>
-    <div class="form-group {{errorClass 'url'}}">
+    <div class="form-group {{errorClass 'postCaption'}}">
       <div class="controls">
-        <input name="url" id="postCaption" type="text" value="" placeholder="Caption" class="form-control"/>
-        <span class="help-block">{{errorMessage 'url'}}</span>
+        <input name="postCaption" id="postCaption" type="text" value="" placeholder="Caption" class="form-control"/>
+        <span class="help-block">{{errorMessage 'postCaption'}}</span>
       </div>
     </div>
     <hr>
-    <div class="form-group {{errorClass 'title'}}">
+    <div class="form-group {{errorClass 'postContent'}}">
       <div class="controls">
-          <textarea name="title" id="postContent" type="text" value="" rows="10" placeholder="My heart is restless oh Lord..." class="form-control"></textarea>
-          <span class="help-block">{{errorMessage 'title'}}</span>
+          <textarea name="postContent" id="postContent" type="text" value="" rows="10" placeholder="My heart is restless oh Lord..." class="form-control"></textarea>
+          <span class="help-block">{{errorMessage 'postContent'}}</span>
       </div>
     </div>
-    <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
+    <input type="submit" value="Submit" class="btn btn-primary"/>
   </form>
 </div>
 </template>

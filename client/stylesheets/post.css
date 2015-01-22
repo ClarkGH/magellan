@@ -13,3 +13,19 @@
   font-family: open sans;
   font-style:italic;
 }
+.posts {
+  padding-left:100px;
+}
+.tabs {
+  padding-top:50px;
+}
+.postPage {
+  padding-top:200px;
+}
+
+.post-heading {
+  text-align:center;
+}
+.postContent {
+  padding-bottom:30px;
+}
