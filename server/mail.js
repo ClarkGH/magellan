@@ -1,16 +1,8 @@
-// Meteor.methods({
-//   sendEmail: function (to, from, subject, text) {
-//     check([a, from, subject, text], [String]);
-//
-//     // Let other method calls from the same client start running,
-//     // without waiting for the email sending to complete.
-//     this.unblock();
-//
-//     Email.send({
-//       to: to,
-//       from: agomez.amdg@gmail.com,
-//       subject: subject,
-//       text: text
-//     });
-//   }
-// });
+Meteor.startup(function () {
+  process.env.MAIL_URL = 'smtp://postmaster%40meteorize.mailgun.org:agraptor@gmail.com@smtp.mailgun.org:587';
+});
+
+// Email to send to
+contactFormConfig.settings.emailTo = 'agomez.amdg@gmail.com';
+// Name (optional)
+contactFormConfig.settings.fullName = 'Alejandro Gomez';
