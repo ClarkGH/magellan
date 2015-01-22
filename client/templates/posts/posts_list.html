@@ -22,6 +22,15 @@
         </ul>
       </div>
         <div class="col-md-10 col-sm-10">
+          {{#if isAdminUser}}
+          <br>
+          <hr>
+          <br>
+          {{> accountsAdmin}}
+          <br>
+          <hr>
+          <br>
+          {{/if}}
           <div class="row posts">
             {{#each posts}} {{> postItem}} {{/each}} {{#if nextPath}}
             <a class="load-more" href="{{nextPath}}">Load more</a> {{else}} {{#unless ready}} {{> spinner}} {{/unless}} {{/if}}

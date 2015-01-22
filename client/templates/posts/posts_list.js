@@ -14,5 +14,8 @@ Template.postsList.helpers({
     });
 
     return active && 'active';
+  },
+  isAdminUser: function() {
+    return Roles.userIsInRole(Meteor.user(), ['admin']);
   }
 });

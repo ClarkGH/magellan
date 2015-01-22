@@ -22,6 +22,8 @@ This project uses the following packages:
 - meteorhacks:zones
 - email
 - rgoomar:bootstrap-validator
+- dessix:accounts-admin-ui-bootstrap-3
+- alanning:roles
 
 
 ## Purpose
@@ -39,4 +41,4 @@ For testing and debugging purposes, this meteor utilizes Kadira and Meteorhack's
 - Google analytics
 - Social Media configuration
 - Tags
-- User roles
+- ~~User roles~~ (Configured!)
