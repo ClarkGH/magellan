@@ -1,3 +1,5 @@
+![ScreenShot](/images/screenshot.png)
+
 # Magellan Meteor Blog Platform
 
 This blog is built for dynamic posting, user admins and an SEO-friendly back end to create the best possible Meteor blog for personal use.
@@ -38,7 +40,3 @@ For testing and debugging purposes, this meteor utilizes Kadira and Meteorhack's
 - Social Media configuration
 - Tags
 - User roles
-
-
-[![Hack DiscoverMeteor/Microscope on
-Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=nodejs&repo=DiscoverMeteor%2FMicroscope&file_to_open=README.nitrous.md)
