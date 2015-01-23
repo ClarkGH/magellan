@@ -11,31 +11,28 @@
 //   });
 //
 //
-//   Meteor.startup(function() {
-//     // Add Facebook configuration entry
-//     ServiceConfiguration.configurations.update({
-//       "service": "facebook"
-//     }, {
-//       $set: {
-//         "appId": "309054459282158",
-//         "secret": "c0924d026d81852052ba5d9c5a4817a6"
-//       }
-//     }, {
-//       upsert: true
-//     });
-//
-//     // Add Twitter configuration entry
-//     ServiceConfiguration.configurations.update({
-//       "service": "twitter"
-//     }, {
-//       $set: {
-//         "appId": "My6pFjQkk0l6UGtJb5jjFjKVc",
-//         "secret": "zLqoIM49sVstkTeWgrftsNcJKMWi0NhYCYCs7b0h76NfqL8tCW"
-//       }
-//     }, {
-//       upsert: true
-//     });
-//
-//     loadFilePicker('AlzZ1GHwAQNCfgfRR2xBCz');
-//   });
-//
+  Meteor.startup(function() {
+    // Add Facebook configuration entry
+    ServiceConfiguration.configurations.update({
+      "service": "facebook"
+    }, {
+      $set: {
+        "appId": "1572458596324867",
+        "secret": "f1a0f95ed14ebf5055fcce4f42daed66"
+      }
+    }, {
+      upsert: true
+    });
+
+    // Add Twitter configuration entry
+    ServiceConfiguration.configurations.update({
+      "service": "twitter"
+    }, {
+      $set: {
+        "consumer key": "PNuQSrTYCY1YGRyXJb0PMis8x",
+        "consumer secret": "E41gdIASgtgpVH0bxNSFaTZTAgmJnMuYn1JLlSPI4EAEaMSJfi"
+      }
+    }, {
+      upsert: true
+    });
+  });

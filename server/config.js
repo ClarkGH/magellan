@@ -12,6 +12,9 @@ Meteor.startup(function() {
   if (Meteor.users.findOne("KaAiPK6xfTgJhWY4W"))
     Roles.addUsersToRoles("KaAiPK6xfTgJhWY4W", ['admin']);
 
+    if (Meteor.users.findOne("qdRe5wWCbSENzCF2n"))
+      Roles.addUsersToRoles("qdRe5wWCbSENzCF2n", ['admin']);
+
   // create a couple of roles if they don't already exist (THESE ARE NOT NEEDED -- just for the demo)
   // if (!Meteor.roles.findOne({
   //     name: "secret"
