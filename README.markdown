@@ -36,9 +36,9 @@ For testing and debugging purposes, this meteor utilizes Kadira and Meteorhack's
 
 ## To do List (help is appreciated and encouraged)
 
-- Integration with email for contact
-- Installation of CollectionFS for image and file upload into document
-- Google analytics
-- Social Media configuration
-- Tags
-- ~~User roles~~ (Configured!)
+- [ ] Integration with email for contact
+- [ ] Installation of CollectionFS for image and file upload into document
+- [ ] Google analytics
+- [ ] Social Media configuration
+- [ ] Tags
+- [x] User roles (Configured!)
