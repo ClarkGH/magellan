@@ -1,27 +1,27 @@
 <template name="postEdit">
-    <div class="container postsEdit">
-      <form class="main form">
-        <div class="form-group {{errorClass 'postTitle'}}">
-          <div class="controls">
-            <input name="postTitle" id="postTitle" type="text" value="" placeholder="Post Title" class="form-control"/>
-            <span class="help-block">{{errorMessage 'postTitle'}}</span>
-          </div>
+  <div class="container postsEdit">
+    <form class="main form">
+      <div class="form-group {{errorClass 'postTitle'}}">
+        <div class="controls">
+          <input name="postTitle" id="postTitle" type="text" value="{{postTitle}}" placeholder="Post Title" class="form-control"/>
+          <span class="help-block">{{errorMessage 'postTitle'}}</span>
         </div>
-        <div class="form-group {{errorClass 'postCaption'}}">
-          <div class="controls">
-            <input name="postCaption" id="postCaption" type="text" value="" placeholder="Caption" class="form-control"/>
-            <span class="help-block">{{errorMessage 'postCaption'}}</span>
-          </div>
+      </div>
+      <div class="form-group {{errorClass 'postCaption'}}">
+        <div class="controls">
+          <input name="postCaption" id="postCaption" type="text" value="{{postCaption}}" placeholder="Caption" class="form-control"/>
+          <span class="help-block">{{errorMessage 'postCaption'}}</span>
         </div>
-        <hr>
-        <div class="form-group {{errorClass 'postContent'}}">
-          <div class="controls">
-            <textarea name="postContent" id="postContent" type="text" value="" rows="10" placeholder="My heart is restless oh Lord..." class="form-control"></textarea>
-            <span class="help-block">{{errorMessage 'postContent'}}</span>
-          </div>
+      </div>
+      <hr>
+      <div class="form-group {{errorClass 'postContent'}}">
+        <div class="controls">
+          <textarea name="postContent" id="postContent" type="text" value="" rows="10" placeholder="My heart is restless oh Lord..." class="form-control">{{postContent}}</textarea>
+          <span class="help-block">{{errorMessage 'postContent'}}</span>
         </div>
-        <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
-        <a class="btn btn-danger delete btn-lg" href="#">Delete post</a>
-      </form>
-    </div>
+      </div>
+      <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
+      <a class="btn btn-danger delete btn-lg" href="#">Delete post</a>
+    </form>
+  </div>
 </template>
