@@ -40,5 +40,5 @@ For testing and debugging purposes, this meteor utilizes Kadira and Meteorhack's
 - [ ] Installation of CollectionFS for image and file upload into document
 - [ ] Google analytics
 - [ ] Social Media configuration
-- [ ] Tags
-- [x] User roles (Configured!)
+- [x] Tags
+- [x] User roles
