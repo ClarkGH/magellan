@@ -1,7 +1,3 @@
-//
-// Accounts.ui.config({
-//   passwordSignupFields: 'USERNAME_ONLY'
-// });
 // AccountsTemplates.configureRoute('signIn', {
 //   redirect: function() {
 //     var user = Meteor.user();

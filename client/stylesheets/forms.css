@@ -39,3 +39,6 @@
 .contactForm .form-control {
   border:1px solid lightgrey;
 }
+.comment-form textarea {
+  font-family:PT Sans;
+}

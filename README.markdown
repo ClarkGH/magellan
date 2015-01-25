@@ -24,6 +24,9 @@ This project uses the following packages:
 - rgoomar:bootstrap-validator
 - dessix:accounts-admin-ui-bootstrap-3
 - alanning:roles
+- biasport:facebook-sdk
+- service-configuration
+- babrahams:editable-text-wysiwyg-bootstrap-3
 
 
 ## Purpose
@@ -35,10 +38,18 @@ For testing and debugging purposes, this meteor utilizes Kadira and Meteorhack's
 
 
 ## To do List (help is appreciated and encouraged)
-
+- [ ] Comment on posts w/ Disqus?
 - [ ] Integration with email for contact
 - [ ] Installation of CollectionFS for image and file upload into document
-- [ ] Google analytics
-- [ ] Social Media configuration
-- [x] Tags
+- [x] Social Media configuration
+- [ ] Tags
 - [x] User roles
+- [ ] Parallax scrolling on header images
+
+
+### Version Changes
+
+0.5
+- Allowed authors to edit own post
+- Improved UI
+- Comments ability Added!
