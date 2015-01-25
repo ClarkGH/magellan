@@ -31,7 +31,7 @@ This project uses the following packages:
 This project is minimal in style, focusing on readability across multiple devices, and ultimately geared to anyone who would like to have a personal blog of their own or for their team. This project can be freely forked and customized per the underlying MIT license.
 
 ### Testing
-For testing and debugging purposes, this project utilizes (Kadira)[https://kadira.io] and (Meteorhack's Zones)[https://github.com/angular/zone.js] for detailed debug analysis and method response times.
+For testing and debugging purposes, this project utilizes [Kadira](https://kadira.io) and [Meteorhack's Zones](https://github.com/angular/zone.js) for detailed debug analysis and method response times.
 
 
 ## To do List (help is appreciated and encouraged)
