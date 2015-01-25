@@ -2,7 +2,7 @@
 
 # Magellan Meteor Blog Platform
 
-This blog is built for dynamic posting, user admins and an SEO-friendly back end to create the best possible Meteor blog for personal use.
+This blog platform is built for dynamic posting, user admins and an SEO-friendly back end to create the best possible Meteor blog for personal use.
 It's built with [Meteor](http://meteor.com) and inspired by the tutorials of [The Meteor Book](http://themeteorbook.com).
 
 This project uses the following packages:
@@ -31,16 +31,23 @@ This project uses the following packages:
 
 ## Purpose
 
-This project is minimal in style, and ultimately geared to anyone who would like to have a personal blog of their own. This project can be freely forked and customized, as long as credit is given to its creator (in this case, 'aledotgomez').
+This project is minimal in style, focusing on readability across multiple devices, and ultimately geared to anyone who would like to have a personal blog of their own or for their team. This project can be freely forked and customized per the underlying MIT license.
 
 ### Testing
-For testing and debugging purposes, this meteor utilizes Kadira and Meteorhack's Zones for detailed debug analysis and method response times.
+For testing and debugging purposes, this project utilizes [Kadira](https://kadira.io) and [Meteorhack's Zones](https://github.com/angular/zone.js) for detailed debug analysis and method response times.
 
 
 ## To do List (help is appreciated and encouraged)
+<<<<<<< HEAD
 - [ ] Comment on posts w/ Disqus?
 - [ ] Integration with email for contact
 - [ ] Installation of CollectionFS for image and file upload into document
+=======
+
+- [ ] Integration with email for contact (pending for next release)
+- [ ] Installation of CollectionFS for image and file upload into document
+- [ ] Google analytics
+>>>>>>> a0108a67db4ff58c4533ed397f39812785d03c20
 - [x] Social Media configuration
 - [ ] Tags
 - [x] User roles
