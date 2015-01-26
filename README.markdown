@@ -38,20 +38,14 @@ For testing and debugging purposes, this project utilizes [Kadira](https://kadir
 
 
 ## To do List (help is appreciated and encouraged)
-<<<<<<< HEAD
-- [ ] Comment on posts w/ Disqus?
 - [ ] Integration with email for contact
 - [ ] Installation of CollectionFS for image and file upload into document
-=======
-
-- [ ] Integration with email for contact (pending for next release)
-- [ ] Installation of CollectionFS for image and file upload into document
 - [ ] Google analytics
->>>>>>> a0108a67db4ff58c4533ed397f39812785d03c20
 - [x] Social Media configuration
 - [ ] Tags
 - [x] User roles
 - [ ] Parallax scrolling on header images
+- [x] Usernames
 
 
 ### Version Changes
