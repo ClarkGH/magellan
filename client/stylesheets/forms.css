@@ -41,4 +41,16 @@
 }
 .comment-form textarea {
   font-family:PT Sans;
+  font-size:1.2em;
+  box-shadow: none;
+  border: 1px solid lightgrey;
+  color:#333;
+}
+.comment-form textarea:action {
+  box-shadow: none;
+}
+
+.comment-wrapper {
+  padding:50px;
+  vertical-align:middle;
 }

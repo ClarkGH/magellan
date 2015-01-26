@@ -3,9 +3,10 @@
     <div class="post-heading">
       <h1 id="postTitle">{{postTitle}}</h1>
       <h3 id="postCaption">{{postCaption}}</h3>
-      <p>By {{author}}, <a href="#comments">{{pluralize commentsCount "comment"}}</a>
+      <p>By {{username}}, <a href="#comments">{{pluralize commentsCount "comment"}}</a>
       </p>
-      {{#if ownPost}}<h4>
+      {{#if ownPost}}
+      <h4>
       <a href="{{pathFor 'postEdit'}}">Edit</a></h4>{{/if}}
     </div>
     <hr>
@@ -16,17 +17,14 @@
       <p id="postContent">{{postContent}}</p>
     </div>
     <br>
-    <ul class="comments">
-      {{#each comments}}
-      {{> commentItem}}
-      <hr>
-      {{/each}}
-    </ul>
-
-    {{#if currentUser}}
-    {{> commentSubmit}}
-    {{else}}
-    <p>Please log in to leave a comment.</p>
-    {{/if}}
-</div>
+    <div class="comment-wrapper">
+      {{#if currentUser}} {{> commentSubmit}} {{else}}
+      <p><em>Please log in to leave a comment.</em></p>
+      {{/if}}
+      <br>
+      <ul class="comments" id="comments">
+        {{#each comments}} {{> commentItem}} {{/each}}
+      </ul>
+    </div>
+  </div>
 </template>

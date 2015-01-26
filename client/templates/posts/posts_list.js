@@ -5,6 +5,9 @@ Template.postsList.helpers({
       return post;
     });
   },
+  username: function() {
+    return Meteor.user().username;
+  },
   activeRouteClass: function(/* route names */) {
     var args = Array.prototype.slice.call(arguments, 0);
     args.pop();

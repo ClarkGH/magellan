@@ -2,7 +2,10 @@
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <a class="navbar-brand navbar-brand-centered" href="{{pathFor 'home'}}"><div id="m">M</div></a>
-      <a class="nav navbar-nav navbar-right">
+      <a class="nav navbar-nav navbar-right" id="username">
+        {{#if currentUser}}
+        <span style="background-color:white;">Welcome {{username}}!</span>
+        {{/if}}
       </a>
     </div>
   </nav>

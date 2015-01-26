@@ -7,6 +7,16 @@ contactFormConfig.settings.emailTo = 'agomez.amdg@gmail.com';
 // Name (optional)
 contactFormConfig.settings.fullName = 'Alejandro Gomez';
 
+
+
+Meteor.methods({
+  "userExists": function(username){
+    return !!Meteor.users.findOne({username: username});
+  },
+});
+
+
+
 Meteor.startup(function() {
   // bootstrap the admin user if they exist -- You'll be replacing the id later
   if (Meteor.users.findOne("KaAiPK6xfTgJhWY4W"))
