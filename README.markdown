@@ -55,6 +55,9 @@ For testing and debugging purposes, this project utilizes [Kadira](https://kadir
 
 
 ### Version Changes
+0.55
+- usernames added
+- comments ui changes
 
 0.5
 - Allowed authors to edit own post
