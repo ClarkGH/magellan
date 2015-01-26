@@ -8,22 +8,13 @@ contactFormConfig.settings.emailTo = 'agomez.amdg@gmail.com';
 contactFormConfig.settings.fullName = 'Alejandro Gomez';
 
 
-
-Meteor.methods({
-  "userExists": function(username){
-    return !!Meteor.users.findOne({username: username});
-  },
-});
-
-
-
 Meteor.startup(function() {
   // bootstrap the admin user if they exist -- You'll be replacing the id later
-  if (Meteor.users.findOne("KaAiPK6xfTgJhWY4W"))
-    Roles.addUsersToRoles("KaAiPK6xfTgJhWY4W", ['admin']);
+  if (Meteor.users.findOne("xLivDtEhiCr8oNXJt"))
+    Roles.addUsersToRoles("xLivDtEhiCr8oNXJt", ['admin']);
 
-    if (Meteor.users.findOne("qdRe5wWCbSENzCF2n"))
-      Roles.addUsersToRoles("qdRe5wWCbSENzCF2n", ['admin']);
+    // if (Meteor.users.findOne(""))
+    //   Roles.addUsersToRoles("", ['admin']);
 
   // create a couple of roles if they don't already exist (THESE ARE NOT NEEDED -- just for the demo)
   // if (!Meteor.roles.findOne({

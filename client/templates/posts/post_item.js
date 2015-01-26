@@ -5,9 +5,6 @@ Template.postItem.helpers({
   ownPost: function() {
     return this.userId == Meteor.userId();
   },
-  username: function() {
-    return Meteor.user().username;
-  },
   attributes: function() {
     var post = _.extend({}, Positions.findOne({postId: this._id}), this);
     var newPosition = post._rank * POST_HEIGHT;

@@ -115,6 +115,7 @@ hr {
 .post-subtitle {
   color:#95a5a6;
   font-style:italic;
+  font-family:lato;
 }
 
 .load-more {
@@ -169,13 +170,6 @@ hr {
   font-size:1.2em;
   font-family: PT Serif;
 }
-
-.accountsAdmin {
-  background-color:red;
-}
-
-
-
 
 .navbar-default {
   background-color: transparent;

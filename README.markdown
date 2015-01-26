@@ -5,6 +5,13 @@
 This blog platform is built for dynamic posting, user admins and an SEO-friendly back end to create the best possible Meteor blog for personal use.
 It's built with [Meteor](http://meteor.com) and inspired by the tutorials of [The Meteor Book](http://themeteorbook.com).
 
+## Setup
+1. After forking the project and entering ```meteor``` on the console.
+2. Set up your administrator rights by registering an account. When registered, type in your browser console ```Meteor.user()._id```
+3. Copy this id and paste it on lines 13 and 14 in ```server/config.js```. Note: You will have to re-do this process when deploying.
+4. Enjoy!
+
+## Packages
 This project uses the following packages:
 
 - standard-app-packages
